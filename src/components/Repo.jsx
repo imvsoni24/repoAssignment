@@ -55,8 +55,8 @@ const Repo = () => {
                   <img style={{width:"100%", height:"300px"}} src={item.owner.avatar_url} alt="" />
                   <h1>{item.name}</h1>
                   <h2>{item.language}</h2>
-                  <div style={{display:"flex",justifyContent:"space-around",alignItems:"center"}}><h3>Star: {item.stargazers_count
-}</h3><h3>Forks: {item.forks_count}</h3></div>
+                  <div style={{display:"flex",justifyContent:"space-around",alignItems:"center"}}><h3>Star-Count: {item.stargazers_count
+}</h3><h3>Forks-Count: {item.forks_count}</h3></div>
                   </div>
             ))}
         </div>
