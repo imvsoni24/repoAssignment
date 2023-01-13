@@ -21,13 +21,13 @@ const Repo = () => {
     }
     const handleH=()=>{
         // data.sort((a, b) => b.stargazers_count - a.stargazers_count);
-        data.filter((item)=>{
-            if(item.language==="Python"){
-                   return item
-            }})
+        // data.filter((item)=>{
+        //     if(item.language==="Python"){
+        //            return item
+        //     }})
            
-        setData([...data]);
-        console.log("object");
+        // setData([...data]);
+        // console.log("object");
     }
     const handleC=()=>{
         
